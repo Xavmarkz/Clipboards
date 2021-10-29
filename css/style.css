@@ -121,8 +121,11 @@ footer{
 a{
     color: hsl(201, 11%, 66%);
 }
+.list-items{
+    padding-left: 0;
+}
 li{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 a:hover{
     color: #107764;
@@ -236,7 +239,7 @@ a:hover{
         font-size: 11px;
         margin:0px ;
     }
-    .list{
+    .list-container{
         width: 250px;
         height: 40%;
     }
@@ -246,5 +249,5 @@ a:hover{
     }
     .image_foot{
         width: 100%;
-  
+    }
 }
